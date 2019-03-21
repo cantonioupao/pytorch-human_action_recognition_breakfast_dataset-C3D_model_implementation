@@ -56,8 +56,7 @@ Dataset directory tree is shown below
 
 - **Breakfast Action Dataset**
 Make sure to put the files as the following structure:
-  ```
-Breakfast
+  ```Breakfast
   ├── PO3
   │   ├── webcam
   │   │   ├── cereals.avi
