@@ -19,7 +19,7 @@ The code was tested pip and Python 3.5.
 
 1. Clone the repo:
     ```Shell
-    git clone https://github.com/cantonioupao/pytorch-human_action_recognition_breakfast_dataset-C3D_model_implementation.git
+    git clone https://github.com/cantonioupao/pytorch-human_action_recognition_breakfast_dataset-C3D_model_implementation
     cd pytorch-video-recognition
     ```
 
