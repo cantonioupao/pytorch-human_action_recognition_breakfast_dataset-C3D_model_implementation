@@ -19,7 +19,7 @@ The code was tested pip and Python 3.5.
 
 1. Clone the repo:
     ```Shell
-    git clone https://github.com/jfzhang95/pytorch-video-recognition.git
+    git clone https://github.com/pytorch-human_action_recognition_breakfast_dataset-C3D_model_implementation.git
     cd pytorch-video-recognition
     ```
 
@@ -38,10 +38,10 @@ The code was tested pip and Python 3.5.
    Currently only support pretrained model for C3D.
 
 3. Configure your dataset and pretrained model path in
-[mypath.py](https://github.com/jfzhang95/pytorch-video-recognition/blob/master/mypath.py).
+[mypath.py](https://github.com/jpytorch-human_action_recognition_breakfast_dataset-C3D_model_implementation/blob/master/mypath.py).
 
 4. You can choose different models and datasets in
-[train.py](https://github.com/jfzhang95/pytorch-video-recognition/blob/master/train.py).
+[train.py](https://github.com/jpytorch-human_action_recognition_breakfast_dataset-C3D_model_implementation/blob/master/train.py).
 
     To train the model, please do:
     ```Shell
@@ -97,22 +97,19 @@ After pre-processing, the output dir's structure is as follows:
   │   └── ...
   ```
 
-Note: HMDB dataset's directory tree is similar to UCF101 dataset's.
+
 
 ## Experiments
 These models were trained in machine with NVIDIA TITAN X 12gb GPU. Note that I splited
 train/val/test data for each dataset using sklearn. If you want to train models using
-official train/val/test data, you can look in [dataset.py](https://github.com/jfzhang95/pytorch-video-recognition/blob/master/dataloaders/dataset.py), and modify it to your needs.
+official train/val/test data, you can look in [dataset.py](https://github.com/https://github.com/pytorch-human_action_recognition_breakfast_dataset-C3D_model_implementation.git/blob/master/dataloaders/dataset.py), and modify it to your needs.
 
-Currently, I only train C3D model in UCF and HMDB datasets. The train/val/test
+Currently, I only train C3D model in the Breakfast Action Dataset. The train/val/test
 accuracy and loss curves for each experiment are shown below:
 
-- **UCF101**
+- **Breakfast Action Dataset**
 
-<p align="center"><img src="assets/ucf101_results.png" align="center" width=900 height=auto/></p>
-
-- **HMDB51**
 
 <p align="center"><img src="assets/hmdb51_results.png" align="center" width=900 height=auto/></p>
 
-Experiments for other models will be updated soon ...
+
