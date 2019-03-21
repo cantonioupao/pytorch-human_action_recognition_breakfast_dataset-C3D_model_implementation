@@ -8,23 +8,22 @@
 </table>
 
 ## Introduction
-This repo contains several models for video action recognition,
-including C3D, R2Plus1D, R3D, inplemented using PyTorch (0.4.0).
-Currently, we train these models on UCF101 and HMDB51 datasets.
-**More models and datasets will be available soon!**
+This repo contains several models for video human action recognition,
+including C3D implemented using PyTorch (0.4.0).
+Currently, we train the model on the Breakfast Action Dataset
 
-**Note: An interesting online web game based on C3D model is in [here](https://github.com/jfzhang95/project-demo).**
+
 
 ## Installation
-The code was tested with Anaconda and Python 3.5. After installing the Anaconda environment:
+The code was tested pip and Python 3.5.
 
-0. Clone the repo:
+1. Clone the repo:
     ```Shell
     git clone https://github.com/jfzhang95/pytorch-video-recognition.git
     cd pytorch-video-recognition
     ```
 
-1. Install dependencies:
+2. Install dependencies:
 
     For PyTorch dependency, see [pytorch.org](https://pytorch.org/) for more details.
 
@@ -34,7 +33,7 @@ The code was tested with Anaconda and Python 3.5. After installing the Anaconda 
     pip install tqdm scikit-learn tensorboardX
     ```
 
-2. Download pretrained model from [BaiduYun](https://pan.baidu.com/s/1saNqGBkzZHwZpG-A5RDLVw) or 
+3. Download pretrained model from [BaiduYun](https://pan.baidu.com/s/1saNqGBkzZHwZpG-A5RDLVw) or 
 [GoogleDrive](https://drive.google.com/file/d/19NWziHWh1LgCcHU34geoKwYezAogv9fX/view?usp=sharing).
    Currently only support pretrained model for C3D.
 
@@ -51,39 +50,48 @@ The code was tested with Anaconda and Python 3.5. After installing the Anaconda 
 
 ## Datasets:
 
-I used two different datasets: UCF101 and HMDB.
+I used the Breakfast Action Dataset
 
 Dataset directory tree is shown below
 
-- **UCF101**
+- **Breakfast Action Dataset**
 Make sure to put the files as the following structure:
   ```
-  UCF-101
-  ├── ApplyEyeMakeup
-  │   ├── v_ApplyEyeMakeup_g01_c01.avi
-  │   └── ...
-  ├── ApplyLipstick
-  │   ├── v_ApplyLipstick_g01_c01.avi
-  │   └── ...
-  └── Archery
-  │   ├── v_Archery_g01_c01.avi
-  │   └── ...
-  ```
+ Breakfast
+├── PO3
+│    ├── stereo
+│           ├─ cereals.txt
+│   	      ├─ cereals.avi  
+│   	      ├─tea.avi   
+│   	      └── ...     
+├── PO4
+│    ├── webcam
+│   	     ├─ cereals.txt
+│   	     ├─ cereals.avi  
+│   	     ├─tea.avi   
+│   	     └── ...     
+│       
+└── PO5
+     ├── cam1
+	       ├─ cereals.avi  
+ 	       ├─cereals.txt 
+ 	       ├─tea.avi   
+	       └── ...     
 After pre-processing, the output dir's structure is as follows:
   ```
-  ucf101
-  ├── ApplyEyeMakeup
-  │   ├── v_ApplyEyeMakeup_g01_c01
+  break
+  ├── stir_milk
+  │   ├── PO5_webcam_milk_123_450
   │   │   ├── 00001.jpg
   │   │   └── ...
   │   └── ...
-  ├── ApplyLipstick
-  │   ├── v_ApplyLipstick_g01_c01
+  ├── stir_coffee
+  │   ├── PO4_stereo_coffee_223_320
   │   │   ├── 00001.jpg
   │   │   └── ...
   │   └── ...
-  └── Archery
-  │   ├── v_Archery_g01_c01
+  └── fryegg
+  │   ├── PO3_cam1_pancake_1_230
   │   │   ├── 00001.jpg
   │   │   └── ...
   │   └── ...
