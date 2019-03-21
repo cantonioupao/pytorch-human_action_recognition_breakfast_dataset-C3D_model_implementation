@@ -57,31 +57,31 @@ Dataset directory tree is shown below
 - **Breakfast Action Dataset**
 Make sure to put the files as the following structure:
   ```
- Breakfast
-├── PO3
-│    ├── stereo
-│           ├─ cereals.txt
-│   	      ├─ cereals.avi  
-│   	      ├─tea.avi   
-│   	      └── ...     
-├── PO4
-│    ├── webcam
-│   	     ├─ cereals.txt
-│   	     ├─ cereals.avi  
-│   	     ├─tea.avi   
-│   	     └── ...     
-│       
-└── PO5
-     ├── cam1
-	       ├─ cereals.avi  
- 	       ├─cereals.txt 
- 	       ├─tea.avi   
-	       └── ...     
+Breakfast
+  ├── PO3
+  │   ├── webcam
+  │   │   ├── cereals.avi
+  │   │   ├── cereals.txt
+  │   │   └── ...
+  │   └── ...
+  ├── PO4
+  │   ├── stereo
+  │   │   ├── coffee.avi
+  │   │   ├── coffee.txt
+  │   │   └── ...
+  │   └── ...
+  └── PO5
+  │   ├── cam1
+  │   │   ├── pancake.avi
+  │   │   ├── pancake.txt
+  │   │   └── ...
+  │   └── ...
+  ``` 
 After pre-processing, the output dir's structure is as follows:
   ```
   break
   ├── stir_milk
-  │   ├── PO5_webcam_milk_123_450
+  │   ├── PO3_webcam_milk_123_450
   │   │   ├── 00001.jpg
   │   │   └── ...
   │   └── ...
@@ -91,7 +91,7 @@ After pre-processing, the output dir's structure is as follows:
   │   │   └── ...
   │   └── ...
   └── fryegg
-  │   ├── PO3_cam1_pancake_1_230
+  │   ├── PO5_cam1_pancake_1_230
   │   │   ├── 00001.jpg
   │   │   └── ...
   │   └── ...
