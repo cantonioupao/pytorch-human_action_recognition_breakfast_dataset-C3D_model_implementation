@@ -19,7 +19,7 @@ The code was tested pip and Python 3.5.
 
 1. Clone the repo:
     ```Shell
-    git clone https://github.com/pytorch-human_action_recognition_breakfast_dataset-C3D_model_implementation.git
+    git clone https://github.com/cantonioupao/pytorch-human_action_recognition_breakfast_dataset-C3D_model_implementation.git
     cd pytorch-video-recognition
     ```
 
@@ -38,10 +38,10 @@ The code was tested pip and Python 3.5.
    Currently only support pretrained model for C3D.
 
 3. Configure your dataset and pretrained model path in
-[mypath.py](https://github.com/jpytorch-human_action_recognition_breakfast_dataset-C3D_model_implementation/blob/master/mypath.py).
+[mypath.py](https://github.com/cantonioupao/pytorch-human_action_recognition_breakfast_dataset-C3D_model_implementation/blob/master/mypath.py).
 
 4. You can choose different models and datasets in
-[train.py](https://github.com/jpytorch-human_action_recognition_breakfast_dataset-C3D_model_implementation/blob/master/train.py).
+[train.py](https://github.com/cantonioupao/pytorch-human_action_recognition_breakfast_dataset-C3D_model_implementation/master/train.py).
 
     To train the model, please do:
     ```Shell
