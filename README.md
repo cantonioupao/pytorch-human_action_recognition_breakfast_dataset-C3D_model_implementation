@@ -2,6 +2,7 @@
 
 <table style="border:0px">
    <tr>
+       <td><img src="README_pics/juice_frame550.png" frame=void rules=none></td>
        <td><img src="README_pics/inference.gif" frame=void rules=none></td>
        <td><img src="README_pics/brekfast.gif" frame=void rules=none></td>
    </tr>
