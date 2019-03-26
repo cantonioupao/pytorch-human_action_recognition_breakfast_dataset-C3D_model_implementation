@@ -2,8 +2,8 @@
 
 <table style="border:0px">
    <tr>
-       <td><img src="assets/demo1.gif" frame=void rules=none></td>
-       <td><img src="assets/demo2.gif" frame=void rules=none></td>
+       <td><img src="README_pics/inference.gif" frame=void rules=none></td>
+       <td><img src="README_pics/brekfast.gif" frame=void rules=none></td>
    </tr>
 </table>
 
