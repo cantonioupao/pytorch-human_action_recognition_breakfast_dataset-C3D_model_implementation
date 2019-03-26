@@ -1,0 +1,1 @@
+This folder contains all the assets and pictures that are used in the Github page to visualize the model. It holds gif images of the Breakfast Action dataset, the model being tested for various videos and other TensorBoard screensots of the model results
