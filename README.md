@@ -56,8 +56,9 @@ I used the Breakfast Action Dataset
 Dataset directory tree is shown below
 
 - **Breakfast Action Dataset**
-Make sure to put the files as the following structure:
-  ```Breakfast
+The downloaded Breakfast Action Dataset from Serre Lab has the following structure:
+  ```
+  Breakfast
   ├── PO3
   │   ├── webcam
   │   │   ├── cereals.avi
