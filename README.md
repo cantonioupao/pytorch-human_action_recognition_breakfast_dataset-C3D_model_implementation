@@ -1,4 +1,4 @@
-# pytorch-video-recognition
+# Pytorch video human action recognition 
 
 <table style="border:0px">
    <tr>
@@ -51,12 +51,12 @@ The code was tested pip and Python 3.5.
 
 ## Datasets:
 
-I used the Breakfast Action Dataset
+I used the Breakfast Action Dataset and downloaded from Serre Lab http://serre-lab.clps.brown.edu/resource/breakfast-actions-dataset/
 
-Dataset directory tree is shown below
+Dataset directory tree for the:
 
-- **Breakfast Action Dataset**
-The downloaded Breakfast Action Dataset from Serre Lab has the following structure:
+- **Downloaded Breakfast Action Dataset**
+
   ```
   Breakfast
   ├── PO3
@@ -79,6 +79,7 @@ The downloaded Breakfast Action Dataset from Serre Lab has the following structu
   │   └── ...
   ``` 
 After pre-processing, the output dir's structure is as follows:
+- **Breakfast Action Dataset output directory "break"**
   ```
   break
   ├── stir_milk
