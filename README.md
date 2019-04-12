@@ -119,4 +119,4 @@ After succesfully preprocessing and dividing the Breakfast Action Dataset, the o
 
 The overall accuracy for training the framework on the first set of hyperparameters is 30.26%.The actual accuracy of the framework can be tested by selecting any video from the Breakfast Action Dataset randomly and running it though the "inference.py". The results for a random video of the dataset, with the 5 hihgest probability actions are demonstrated below:
 
-<p align="center"><img src="README_pics/pour_milk_inference" align="center" width=900 height=auto/></p>
+<p align="center"><img src="README_pics/pour_milk_inference.png" align="center" width=900 height=auto/></p>
