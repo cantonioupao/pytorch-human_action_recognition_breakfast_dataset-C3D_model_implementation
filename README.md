@@ -110,8 +110,13 @@ Currently, I only train C3D model in the Breakfast Action Dataset. The train/val
 accuracy and loss curves for each experiment are shown below:
 
 - **Breakfast Action Dataset**
+After succesfully preprocessing and dividing the Breakfast Action Dataset, the output dataset directory size is 50GB. The new output directory holds all the action videos (converted to frames) and is classified based on the 48 actions and not the 10 activities. After running the "train.py" and seeting the hyperparameters of the framework( e.g batch_size , # of epochs, clip_length). The CMD training and tensorboard results are demonstrated below. 
 
 
-<p align="center"><img src="assets/hmdb51_results.png" align="center" width=900 height=auto/></p>
 
+<p align="center"><img src="READme_pics/100-epoch-breakfast.png" align="center" width=900 height=auto/></p>
+<p align="center"><img src="READme_pics/tesnorboard epoch 100 results breakfast.png" align="center" width=900 height=auto/></p>
 
+The overall accuracy for training the framework on the first set of hyperparameters is 30.26%.The actual accuracy of the framework can be tested by selecting any video from the Breakfast Action Dataset randomly and running it though the "inference.py". The results for a random video of the dataset, with the 5 hihgest probability actions are demonstrated below:
+
+<p align="center"><img src="READme_pics/test_inference" align="center" width=900 height=auto/></p>
